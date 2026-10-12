@@ -51,8 +51,8 @@ writing outputs. The `22397a04d7ae4cf4` shader has no CBV chain to split.
 Outputs are appropriate only when the actual Vulkan subgroup is 64 lanes
 with the lane mapping assumed by this transformation.
 
-The tested tools were `spirv-dis`/`spirv-as` from SPIRV-Tools v2026.4 and an
-independently built `spirv-val` v2026.2. The manifest pins the exact assembly,
+The latest local end-to-end check used `spirv-dis` v2026.2, `spirv-as` v2026.4,
+and an independently built `spirv-val` v2026.2. The manifest pins the exact assembly,
 input binary and expected output hashes, so different conversion or tool
 output fails closed. `spirv.core.grammar.json` is the Khronos grammar with
 SHA-256 `048ead37f9bf16613b54a1cae0f671007bd032cbf0026a21c620dcec8ba70e83`.
