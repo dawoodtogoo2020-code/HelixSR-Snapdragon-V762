@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "scope": "HelixSR 1.8.0 V762 four-shader wave64 transform stage only",
+  "physical_subgroup_size": 64,
+  "vkd3d_commit": "44cf7c2042168f3",
+  "assembly_requirements": "SPIR-V 1.3 raw numeric-ID disassembly produced by spirv-dis --raw-id from the locally converted published HelixSR 1.8.0 DXIL",
+  "entries": [
+    {
+      "shader_hash": "1ad412dd861a9c17",
+      "min_split_chains": 1,
+      "assembly_sha256": "aff6bd317bc06c741a51ca8a055661f8b89f1807d50285f635345cd9dda00a8e",
+      "input_spv_sha256": "f3bc2b3f21952ba94ca64b1c3c5dc1af3f1a5b27fee280c179b4d03de6ec9e1e",
+      "output_spv_sha256": "d19f08f4e640b9a0c96aad642f38c9f9c4692260b8a011a13539bcf00305c60c"
+    },
+    {
+      "shader_hash": "22397a04d7ae4cf4",
+      "min_split_chains": 0,
+      "assembly_sha256": "9b1c1c16e2515796c163a581c521869cd5d6ae72376e5b6abf86ace69f1ee065",
+      "input_spv_sha256": "a7bd3e357e51c60d7fa9d5759c6e38764c2c0942fd8001518a0e881e27712cb9",
+      "output_spv_sha256": "dfb461345ef35baab4db991357e42a0598ddd74667e174d3551e1b67074f6584"
+    },
+    {
+      "shader_hash": "649a6778b026d390",
+      "min_split_chains": 1,
+      "assembly_sha256": "8f6dbb7c42d534f4b9e3b655f607b9be7fabf215d5c4e407f81ab91a6270ef3c",
+      "input_spv_sha256": "c7080fe0dc0ba215f7951265f722d2f8687352f0d22c676f443533dfe47a977f",
+      "output_spv_sha256": "9e603999c401a39fd2a467df92eb36331c4dfb3d1a0f626045abfabf161887f1"
+    },
+    {
+      "shader_hash": "6883f2d69d8704f2",
+      "min_split_chains": 1,
+      "assembly_sha256": "53bae065c411185b3d8d47b6643f0e6e37f8f1ac116dca9d8d6c99ef0388be44",
+      "input_spv_sha256": "065082dcf3ff3f4c37ec8e88a442d062c206ad773fb3a8cd552ea753a40e8c3e",
+      "output_spv_sha256": "9c762a6f464d48e7d6aa1a0429809ba32149030cbac5e7906bd3d5cd12e51baa"
+    }
+  ]
+}

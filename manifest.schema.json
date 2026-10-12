@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HelixSR V762 transform stage manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "scope", "physical_subgroup_size", "vkd3d_commit", "assembly_requirements", "entries"],
+  "properties": {
+    "schema": {"const": 1},
+    "scope": {"type": "string"},
+    "physical_subgroup_size": {"const": 64},
+    "vkd3d_commit": {"const": "44cf7c2042168f3"},
+    "assembly_requirements": {"type": "string"},
+    "entries": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["shader_hash", "min_split_chains", "assembly_sha256", "input_spv_sha256", "output_spv_sha256"],
+        "properties": {
+          "shader_hash": {"type": "string", "pattern": "^[0-9a-f]{16}$"},
+          "min_split_chains": {"enum": [0, 1]},
+          "assembly_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "input_spv_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "output_spv_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+        }
+      }
+    }
+  }
+}

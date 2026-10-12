@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.spv
+*.spvasm
+*.dll
+*.pak
+*.bin
