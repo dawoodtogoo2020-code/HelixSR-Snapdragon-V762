@@ -3,7 +3,7 @@
   "scope": "HelixSR 1.8.0 V762 four-shader wave64 transform stage only",
   "physical_subgroup_size": 64,
   "vkd3d_commit": "44cf7c2042168f3",
-  "assembly_requirements": "SPIR-V 1.3 raw numeric-ID disassembly produced by spirv-dis --raw-id from the locally converted published HelixSR 1.8.0 DXIL",
+  "assembly_requirements": "SPIR-V 1.3 raw numeric-ID disassembly produced by spirv-dis --raw-id from the four locally generated private runtime dumps with the input hashes listed here; no direct DLL extractor is included",
   "entries": [
     {
       "shader_hash": "1ad412dd861a9c17",

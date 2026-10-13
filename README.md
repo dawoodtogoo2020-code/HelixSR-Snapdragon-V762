@@ -1,6 +1,6 @@
 # HelixSR Snapdragon V762 transform stage
 
-This is an **unpublished, source-only preparation kit** for four shader overrides
+This is a **public experimental source-only transform preview** for four shader overrides
 used in a private HelixSR 1.8.0 test on an AYN Odin 3. It is not an installer,
 HelixSR release, or general Snapdragon compatibility claim. The four output
 hashes were reproduced offline from locally held SPIR-V inputs; a clean user
@@ -11,8 +11,8 @@ copyright The Khronos Group), a hash manifest and its schema. It contains no
 HelixSR DLL, DXIL, SPIR-V shader, NVIDIA DLL, model weights, network pack, game
 file, or device credential. Obtain HelixSR and any required NVIDIA material
 separately from their rights holders under their terms. The source kit itself
-does not contain an extracted kernel body. Publication of a usable package
-still needs a complete, reviewed public file manifest and extraction workflow.
+does not contain an extracted kernel body. The public file manifest has been reviewed. A usable end-to-end model package
+still needs a clean extraction workflow.
 
 The original tools are under the included MIT `LICENSE`. The unmodified
 Khronos grammar retains its copyright header and the full upstream terms in
@@ -82,9 +82,14 @@ and disassembly of its compiled parts. The author was [asked explicitly about
 the four runtime shader replacements and a free unofficial package/guide](https://github.com/lonewolf0622/HelixSR/issues/3)
 with no NVIDIA-derived files, and [replied as owner that we may release it](https://github.com/lonewolf0622/HelixSR/issues/3#issuecomment-6128425735).
 That is the recorded scope of author permission. It does not grant rights to
-NVIDIA material, and the exact public file manifest still needs provenance
-review. This folder contains only generic transformation code and pins, not
+NVIDIA material, and the source-only public manifest has been reviewed. This folder contains only generic transformation code and pins, not
 the extracted HelixSR kernel body.
 
 HelixSR is by lonewolf0622. This experimental transform is unofficial and
 is not endorsed by HelixSR, NVIDIA, AMD, Valve or AYN.
+
+## Available model and game status
+
+The current adaptation covers HelixSR 1.8.0 Model E generated locally from DLSS 310.7.0. This is not DLSS 3.7 and does not certify other models. PRAGMATA has historical physical confirmation on Odin 3 / Adreno 830 / Armada. Witcher 3 Remastered 5.01 runs Helix but still flashes black geometry or entire frames; its matched original FSR test was clean. Android GameHub, DeckDroid, GameNative and Thor remain unverified.
+
+Use the [separate Decky Armada plugin](https://github.com/dawoodtogoo2020-code/HelixSR-Decky-Armada) to manage privately prepared assets. This release contains no ready-to-install model and cannot supply the missing private dumps.
